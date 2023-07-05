@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            font-family: 'Hammersmith One';
+            text-align: center;
+            color: white;
+        }
+        button{
+            font-size: 125px;
+            border-radius: 15px;
+            background-color: black;
+            border: none;
+            cursor: pointer;
+        }
+        .robotsWins{
+            font-size: 25px;
+        }
+        div{
+            font-size: 75px;
+        }
+    </style>
+</head>
+<body style="margin: 0; background-color: black;">
+    <h1>Unbeatable computer on rock, paper, scissors (unless you cheat)</h1>
+    <h1 class="Wins" id="robotsWins"></h1>
+    <h1 class="Wins" id="playersWins"></h1>
+    <button onclick="rockBtnClick()">👊</button>
+    <button onclick="paperBtnClick()">🖐️</button>
+    <button onclick="scissorsBtnClick()">✌️</button>
+    <div></div>
+    <div></div>
+    <script src="index.js"></script>
+    <script src="killer.js"></script>
+</body>
+</html>
