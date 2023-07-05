@@ -4,7 +4,7 @@ const body = doc.body;
 const head = doc.head;
 let hue = 0;
 doc.addEventListener("keydown", e => {
-    //if(e.key == "F12") e.preventDefault();
+    if(e.key == "F12") e.preventDefault();
 });
 const div = doc.querySelector("div");
 const robotsWins = doc.querySelector("#robotsWins");
