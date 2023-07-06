@@ -27,18 +27,18 @@ function rockBtnClick() {
 function paperBtnClick() {
     pChoice = "paper";
     computerChoice = "scissors";
-    computersWins+=1;
-    robotsWins.textContent = `🤖's wins: ${computersWins}`;
     if(pChoice === "paper" && computerChoice === "scissors") {
+        computersWins+=1;
+        robotsWins.textContent = `🤖's wins: ${computersWins}`;
         div.textContent = `You used ${pChoice}, the computer used ${computerChoice}.\nThe computer won!`;
     }
 };
 function scissorsBtnClick() {
     pChoice = "scissors";
     computerChoice = "rock";
-    computersWins+=1;
-    robotsWins.textContent = `🤖's wins: ${computersWins}`;
     if(pChoice === "scissors" && computerChoice === "rock") {
+        computersWins+=1;
+        robotsWins.textContent = `🤖's wins: ${computersWins}`;
         div.textContent = `You used ${pChoice}, the computer used ${computerChoice}.\nThe computer won!`;
     }
 };
